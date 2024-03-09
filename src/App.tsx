@@ -1,7 +1,7 @@
 import "./App.css";
 import { Provider } from "react-redux";
 import ThemeProvider from "src/theme";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Routes from "routes/Routes";
 import store from "src/redux/store";
 
@@ -10,9 +10,9 @@ function App() {
     <div className="App">
       <Provider store={store}>
         <ThemeProvider>
-          <HashRouter>
+          <BrowserRouter>
             <Routes />
-          </HashRouter>
+          </BrowserRouter>
         </ThemeProvider>
       </Provider>
     </div>
