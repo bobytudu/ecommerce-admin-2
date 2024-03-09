@@ -3,6 +3,8 @@
   "private": false,
   "version": "0.0.1",
   "type": "module",
+  "baseURL": "https://bobytudu.github.io/ecommerce-admin-2",
+  "homepage": "https://bobytudu.github.io/ecommerce-admin-2",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
