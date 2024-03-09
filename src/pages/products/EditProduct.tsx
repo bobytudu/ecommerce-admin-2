@@ -48,7 +48,7 @@ export default function EditProduct() {
     { label: "Pricing", path: `/products/${params.id}/pricing` },
     { label: "Inventory", path: `/products/${params.id}/inventory` },
     { label: "Shipping", path: `/products/${params.id}/shipping` },
-    { label: "SEO", path: `products/${params.id}/seo` },
+    { label: "SEO", path: `/products/${params.id}/seo` },
     { label: "Variations", path: `/products/${params.id}/variations` },
   ];
 
